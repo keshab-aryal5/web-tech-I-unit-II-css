@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 15</title>
+    <style>
+        *{
+            box-sizing:border-box;
+        }
+        table{
+            width:100%;
+        }
+        td, tr{
+            padding:5px;
+        }
+        th{
+
+            padding:15px;
+            font-size:25px;
+        }
+        div{
+            outline:6px solid black;
+            border-top:3px solid rgb(0, 119, 255);
+            padding:5px 8px 20px 15px;
+            width:65%;
+            margin:auto;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form action="#">
+            <table>
+                <tr>
+                    <th colspan="2">Registration Form</th>
+                </tr>
+                <tr>
+                    <td><label for="sname">Student Name</label></td>
+                    <td><select name="gen" id="gen">
+                        <option value="Mr.">Mr.</option>
+                        <option value="Miss">Miss.</option>
+                    </select><input type="text" id="sname" placeholder="Enter your Name"></td>
+                </tr>
+                <tr>
+                    <td><label for="fname">Father's Name</label></td>
+                    <td><input type="text" id="fname" placeholder="Enter your father Name"></td>
+                </tr>
+                <tr>
+                    <td><label for="mname">Mother's Name</label></td>
+                    <td><input type="text" id="mname" placeholder="Enter your Mother's Name"></td>
+                </tr>
+                <tr>
+                    <td><label for="Date of Birth">Date of Birth</label></td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td><label for="male">Male</label>
+                    <input type="radio" name="gender" id="male" value="male">
+                <label for="fem">Female</label><input type="radio" id="fem" value="female" name="gender"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="mob">Mobile No.</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="Address">Address</label></td>
+                    <td><textarea name="Address" id="Address" cols="15" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="state">State</label></td>
+                    <td><input type="text" id="state"></td>
+                </tr>
+                <tr>
+                    <td><label for="city">City</label></td>
+                    <td><input type="text" id="city"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
